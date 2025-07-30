@@ -49,7 +49,7 @@ const Banner = ({ bannerData }) => {
             </div>
             <div className="col-lg-6">
               <div className={styles.bannerImg}>
-                <img src={bannerData?.banner_img} className="img-fluid" />
+                <img src="assets\Home\banner2.JPG" className="img-fluid" />
               </div>
             </div>
           </div>

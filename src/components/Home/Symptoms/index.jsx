@@ -14,7 +14,7 @@ const Symptoms = ({ symptomData }) => {
             />
           </div>
 
-          <div className="symptom-card mt-5">
+          {/* <div className="symptom-card mt-5">
             <div className="row">
               {symptomData.symptoms.map((data) => (
                 <div className="col-lg-4 col-md-6">
@@ -26,6 +26,16 @@ const Symptoms = ({ symptomData }) => {
                 </div>
               ))}
             </div>
+          </div> */}
+
+          <div className="symptom-card mt-5 d-flex justify-content-center flex-wrap ">
+            {symptomData.symptoms.map((data) => (
+              <div className={styles.scard}>
+                <img src={data?.icon} className="img-fluid" />
+                <h4>{data?.title}</h4>
+                <p>{data?.symptom}</p>
+              </div>
+            ))}
           </div>
 
           <div className="d-flex justify-content-center mt-5">

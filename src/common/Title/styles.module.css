@@ -48,14 +48,14 @@
 
 @media (width < 576px) {
 
-       .commonTitle h2 {
+    .commonTitle h2 {
         font-size: 25px;
     }
 
-        .commonTitle p {
+    .commonTitle p {
         width: 100%;
         font-size: 15px;
     }
 
-    
+
 }

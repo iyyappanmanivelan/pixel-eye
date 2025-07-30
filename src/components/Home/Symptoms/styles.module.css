@@ -6,12 +6,12 @@
 
 .scard {
     text-align: center;
-
+    width: 400px;
+    margin: 20px 10px;
     background-color: #ffff;
     padding: 20px;
     border-radius: 10px;
     height: 180px;
-    margin: 15px 0px;
 }
 
 .scard h4 {
@@ -75,12 +75,55 @@
 
 }
 
+@media (width < 1400px) {
+
+    .scard {
+        width: 350px;
+    }
+
+}
+
+@media (width < 1200px) {
+
+    .treatment {
+        width: 650px;
+    }
+
+    .treatmenticon img {
+        width: 75px;
+        height: 35px;
+    }
+
+    .scard {
+        width: 400px;
+    }
+
+}
+
 @media (width < 992px) {
 
     .symptomSec {
         padding: 60px 0px;
     }
 
+    .scard {
+        width: 320px;
+    }
+
+
+}
+
+
+@media (width < 768px) {
+
+    .scard , .treatment{
+        width: 100%;
+    }
+
+    .treatmenticon img{
+        width: 95px;
+    }
+    
 }
 
 @media (width < 576px) {

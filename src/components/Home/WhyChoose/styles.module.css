@@ -1,5 +1,5 @@
 .whychooseSec {
-    padding: 80px 0px;
+    padding: 100px 0px;
 }
 
 .choosecard img {
@@ -13,13 +13,16 @@
 
 }
 
+
+
 .choosecard {
     border: 1px solid hsl(203 33% 58%);
     padding: 20px 10px;
     border-radius: 10px;
     border-left: 4px solid #2A3B77;
-    margin: 15px 0px;
-    height: 140px;
+    margin: 20px 10px;
+    height: 150px;
+    width: 400px;
 }
 
 .choosecard h4 {
@@ -64,7 +67,7 @@
     padding: 10px 20px;
     border-radius: 10px;
     border: 1px solid #c1ccf5;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .guranteeimg img {
@@ -82,7 +85,31 @@
     color: hsl(203 33% 58%);
 }
 
+.chooseimg img {
+    height: 410px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
 
+
+
+@media (width < 1400px) {
+
+    .choosecard {
+        width: 350px;
+    }
+
+    .technique h4,
+    .lensoption h4 {
+        height: 55px;
+    }
+
+    .chooseimg img {
+        height: 460px;
+    }
+
+}
 
 @media (width < 1200px) {
 
@@ -102,31 +129,82 @@
         margin-top: 40px;
     }
 
+    .technique h4,
+    .lensoption h4 {
+        height: 100%
+    }
+
+    .chooseimg img {
+        height: 100%;
+    }
+
+
 }
 
 
 @media (width < 992px) {
 
-    .whychooseSec{
-          padding: 60px 0px;
+    .whychooseSec {
+        padding: 60px 0px;
     }
-    
+
+    .choosecard {
+        width: 320px;
+    }
+
+    .choosecard img {
+        height: 49px;
+        width: 49px;
+    }
+
+    .technique h4,
+    .lensoption h4 {
+        font-size: 22px;
+    }
+
+      .lensoption {
+        margin-top: 0px;
+    }
+
+    .gurantee{
+        margin: 40px 0px;
+    }
+
+    .chooseimg img{
+        height: 500px;
+    }
+
 }
 
 @media (width < 768px) {
 
-    .choosecard img{
+    .choosecard img {
         height: 50px;
     }
-    .choosecard{
+
+    .choosecard {
         height: 130px;
+        width: 100%;
     }
+
+        .lensoption {
+        margin-top: 40px;
+    }
+
+
 }
 
 @media (width < 576px) {
 
-    .lensoption h4 , .technique h4{
+    .lensoption h4,
+    .technique h4 {
         margin-bottom: 18px;
     }
-    
+
+    .chooseimg img{
+        height: 400px;
+    }
+    .lensoption{
+        margin-top: 30px;
+    }
 }

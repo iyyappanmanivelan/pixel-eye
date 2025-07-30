@@ -18,7 +18,7 @@ const Whychoose = ({ whyChooseData }) => {
             />
           </div>
 
-          <div className="row my-5">
+          {/* <div className="row my-5">
             {whyChooseData?.beneifits?.map((data) => (
               <div className="col-lg-4 col-md-6 ">
                 <div className={` row ${styles.choosecard}`}>
@@ -32,45 +32,65 @@ const Whychoose = ({ whyChooseData }) => {
                 </div>
               </div>
             ))}
+          </div> */}
+
+          <div className="my-md-5 my-4 d-flex justify-content-center flex-wrap">
+            {whyChooseData?.beneifits?.map((data) => (
+              <div className={` row ${styles.choosecard}`}>
+                <div className="col-3 text-center">
+                  <img src={data?.icon} className="img-fluid" />
+                </div>
+                <div className="col-9">
+                  <h4>{data?.title}</h4>
+                  <p>{data?.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
 
-          <div className="row">
-            <div className="col-lg-6">
-              <div className={styles.technique}>
-                <h4>Advanced Surgical Techniques</h4>
+          <div className="row pt-4">
+            <div className="col-xl-7 col-lg-6 col-12 ">
+              <div className="row">
+                <div className="col-xl-6 col-lg-12 col-md-6  ">
+                  <div className={styles.technique}>
+                    <h4>Advanced Surgical Techniques</h4>
 
-                {whyChooseData?.techniques?.map((data) => (
-                  <div
-                    className={`d-flex gap-3 align-items-center my-3 ${styles.techi}`}
-                  >
-                    <img
-                      src="assets\Home\checkmark.png"
-                      className="img-fluid"
-                    />
-                    <p>{data}</p>
+                    {whyChooseData?.techniques?.map((data) => (
+                      <div
+                        className={`d-flex gap-3 align-items-center my-3 ${styles.techi}`}
+                      >
+                        <img
+                          src="assets\Home\checkmark.png"
+                          className="img-fluid"
+                        />
+                        <p>{data}</p>
+                      </div>
+                    ))}
                   </div>
-                ))}
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className={styles.lensoption}>
-                <h4>Premium Lens Options</h4>
+                </div>
+                <div className="col-xl-6 col-lg-12 col-md-6">
+                  <div className={styles.lensoption}>
+                    <h4>Premium Lens Options</h4>
 
-                {whyChooseData?.lensOption?.map((data) => (
-                  <div
-                    className={`d-flex gap-2 align-items-center my-1 ${styles.techi2}`}
-                  >
-                    <img
-                      src="assets\Home\dot-orange.png"
-                      className="img-fluid"
-                    />
-                    <p>{data}</p>
+                    {whyChooseData?.lensOption?.map((data) => (
+                      <div
+                        className={`d-flex gap-2 align-items-center my-1 ${styles.techi2}`}
+                      >
+                        <img
+                          src="assets\Home\dot-orange.png"
+                          className="img-fluid"
+                        />
+                        <p>{data}</p>
+                      </div>
+                    ))}
                   </div>
-                ))}
+                </div>
               </div>
 
               <div className={styles.gurantee}>
-                <div className={`d-flex gap-2 align-items-center my-3 ${styles.guranteeimg}`}>
+                <div
+                  className={`d-flex gap-2 align-items-center my-3 ${styles.guranteeimg}`}
+                >
                   <img src="assets\Home\security.png" className="img-fluid" />
                   <h4 className="m-0">Success Guarantee</h4>
                 </div>
@@ -79,6 +99,11 @@ const Whychoose = ({ whyChooseData }) => {
                   99.9% surgical success rate with comprehensive post-operative
                   care and lifetime follow-up support.
                 </p>
+              </div>
+            </div>
+            <div className="col-xl-5 col-lg-6 col-12">
+              <div className={styles.chooseimg}>
+                <img src="assets\Home\choose_img.JPG" className="img-fluid" />
               </div>
             </div>
           </div>

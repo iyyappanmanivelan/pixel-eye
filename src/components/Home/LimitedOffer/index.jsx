@@ -4,8 +4,9 @@ import Button from "@/common/Button";
 const LimitedOffer = ({ LimitedData }) => {
   return (
     <section>
-      <div className={styles.offerSec}>
-        <div className="container">
+      <div className={`${styles.offerSec} position-relative`}>
+       <div className={styles.offerbanner}>
+         <div className="container">
           <div className="d-flex justify-content-center">
             <div className={styles.promo}>
               <h5 className="m-0">🎁 Limited Period Offer</h5>
@@ -14,6 +15,7 @@ const LimitedOffer = ({ LimitedData }) => {
 
           <div className="my-3">
             <Title
+              iswhite={true}
               special={LimitedData?.special}
               title={LimitedData?.title}
               subtitle={LimitedData?.subtitle}
@@ -136,6 +138,8 @@ const LimitedOffer = ({ LimitedData }) => {
             </div>
           </div>
         </div>
+       </div>
+      <div className={`${styles.overlay} position-absolute`}></div>
       </div>
     </section>
   );

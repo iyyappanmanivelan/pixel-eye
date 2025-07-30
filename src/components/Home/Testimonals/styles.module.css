@@ -1,0 +1,108 @@
+.testimonalSec {
+    padding: 80px 0px;
+     background: linear-gradient(180deg, hsl(218 89% 89%), hsl(0 0% 100%));
+}
+
+.testimonalstar {
+    display: flex;
+}
+
+.testimonalbox {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #2a3b77;
+    border: 1px solid #819dffb8;
+}
+
+.tetsimonalspeak p {
+    font-style: italic;
+    height: 100px !important;
+    margin: 20px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.testimonalstar img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+
+}
+
+.testimonalmark img {
+    width: 30px;
+}
+
+.reviewimg {
+
+    background-color: #2a3b77;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+
+.reviewimg h5 {
+
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 38px;
+}
+
+.reviewname h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.reviewname p {
+    font-weight: 400;
+    color: hsl(203 33% 58%);
+    font-size: 14px;
+}
+
+.trustcard {
+    background-color: #fff;
+    width: 490px;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+
+}
+
+.trustcard p {
+    margin: 0px;
+    font-weight: 500;
+    color: #2a3b77;
+}
+
+@media (width < 1200px) {
+
+    .testimonalSec{
+          padding: 60px 0px;
+    }
+    
+}
+
+@media (width < 576px) {
+    .trustcard{
+        width: 100%;
+    }
+    .testimonalstar img{
+        width: 12px;
+        height: 12px;
+    }
+    .trustcard p{
+        font-size: 13px;
+    }
+}

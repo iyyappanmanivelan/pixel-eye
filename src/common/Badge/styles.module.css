@@ -1,0 +1,9 @@
+.badgecard {
+    background-color: #b3e9d8;
+    width: fit-content;
+    padding: 3px 10px;
+    border-radius: 60px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2A3B77;
+}

@@ -1,0 +1,100 @@
+.symptomSec {
+    padding: 80px 0px;
+    background: linear-gradient(2deg, hsl(218 89% 89%), hsl(0 0% 100%));
+
+}
+
+.scard {
+    text-align: center;
+
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+    height: 180px;
+    margin: 15px 0px;
+}
+
+.scard h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+
+.scard p {
+    font-size: 14px;
+    color: hsl(203 33% 58%);
+}
+
+.scard img {
+    background: linear-gradient(150deg, hsl(227 48% 31%), hsl(32 65% 48%));
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    padding: 12px;
+    border-radius: 100px;
+
+
+}
+
+.treatment {
+    width: 900px;
+    display: flex;
+    gap: 15px;
+    background-color: hsl(0deg 0% 99.02%);
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #EF4444;
+
+}
+
+.treatmenticon img {
+    width: 40px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.treatmentinfo h4 {
+    font-size: 20px;
+    color: #EF4444;
+    font-weight: 600;
+}
+
+.treatmentinfo button {
+    padding: 12px 35px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.treatmentinfo p {
+    margin: 15px 0px;
+}
+
+.treatmentinfo button p {
+    font-size: 14px;
+
+}
+
+@media (width < 992px) {
+
+    .symptomSec {
+        padding: 60px 0px;
+    }
+
+}
+
+@media (width < 576px) {
+
+    .treatmenticon img {
+        width: 130px;
+    }
+
+    .treatmentinfo p {
+        font-size: 14px;
+    }
+
+    .treatmentinfo h4 {
+        font-size: 18px;
+    }
+
+}

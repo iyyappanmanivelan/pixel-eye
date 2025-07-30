@@ -1,0 +1,61 @@
+.commonTitle h2 {
+    font-size: 48px;
+    color: #2a3b77;
+    font-weight: 700;
+}
+
+.commonTitle p {
+    font-size: 20px;
+    color: #6FA1BB;
+    margin: 10px 0px;
+    width: 670px;
+}
+
+.commonTitle span {
+    color: hsl(102 72% 66%) !important;
+    margin: 0px 10px;
+}
+
+@media (width < 1200px) {
+
+    .commonTitle h2 {
+        font-size: 45px;
+    }
+
+}
+
+
+
+@media (width < 992px) {
+
+    .commonTitle h2 {
+        font-size: 30px;
+    }
+
+
+}
+
+
+@media (width < 768px) {
+
+    .commonTitle p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+}
+
+
+@media (width < 576px) {
+
+       .commonTitle h2 {
+        font-size: 25px;
+    }
+
+        .commonTitle p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    
+}

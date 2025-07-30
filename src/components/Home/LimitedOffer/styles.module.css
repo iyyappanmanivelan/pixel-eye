@@ -1,0 +1,191 @@
+.promo {
+    background-color: hsl(102 72% 66%);
+    width: fit-content;
+    padding: 12px 17px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.offerSec {
+    padding: 100px 0px;
+    background: linear-gradient(110deg, hsl(102deg 72% 66% / 5%), hsl(218 89% 89%));
+}
+
+.promo h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.offerbox {
+    width: 900px;
+}
+
+.offerhead {
+    background-color: hsl(102 72% 66%);
+    padding: 20px 30px;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.giftimg img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.giftname h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.amount h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(218 89% 89%);
+    margin: 0px;
+}
+
+.slash {
+    color: hsl(218 89% 89%);
+}
+
+.amount h5 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.techi img {
+    width: 30px;
+    object-fit: cover;
+    height: 25px;
+    text-align: start;
+}
+
+.techi p,
+.techi2 p {
+    font-size: 15px;
+}
+
+.offertitle img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+
+}
+
+.offertitle h4 {
+    font-size: 18px;
+    margin: 0px;
+
+}
+
+.techi2 img {
+    width: 20px;
+}
+
+.offerbody {
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px
+}
+
+.dangercard {
+    border: 1px solid #ffb2b2;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: hsl(0deg 85.08% 73.62% / 20%);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.dangercard img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.dangercard h5 {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0px;
+    color: #EF4444;
+}
+
+.dangercard p {
+    font-size: 13px;
+    color: hsl(203 33% 58%);
+    margin: 0px
+}
+
+.offerbody button {
+    width: 100% !important;
+}
+
+.freeline p {
+    font-size: 12px;
+    text-align: center;
+    margin: 20px 0px;
+    color: hsl(203 33% 58%);
+}
+
+@media (width < 992px) {
+
+    .giftname h4 {
+        font-size: 20px;
+    }
+
+    .giftname p {
+        font-size: 13px;
+    }
+
+    .amount h5 {
+        font-size: 30px;
+    }
+
+    .amount h4 {
+        font-size: 25px;
+    }
+
+    .techi p,
+    .techi2 p {
+        font-size: 13px;
+    }
+
+    .promo h5,
+    .offertitle h4 {
+        font-size: 16px;
+    }
+
+    .offerSec {
+        padding: 60px 0px;
+    }
+
+}
+
+@media (width < 768px) {
+
+    .offerbody button {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (width < 576px) {
+
+    .offerhead , .offerbody{
+        padding: 20px;
+    }
+    .giftname h4{
+        font-size: 15px;
+    }
+    .giftimg img{
+        width: 28px;
+        height: 24px;
+    }
+    .amount h4 , .amount h5{
+        font-size: 20px;
+    }
+}

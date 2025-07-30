@@ -1,0 +1,151 @@
+.bannerSec {
+    padding: 100px 0px;
+    background: linear-gradient(150deg, hsl(218 89% 89%), hsl(0 0% 100%), hsl(218 89% 89%));
+}
+
+.bannerContent h1 {
+    font-size: 60px;
+    margin: 20px 0px;
+    font-weight: 700;
+
+}
+
+.bannerContent p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.textmuted {
+    color: hsl(203 33% 58%);
+    font-weight: 400 !important;
+    font-size: 20px !important;
+}
+
+.bannerImg {
+    height: 100%;
+}
+
+.bannerImg img {
+    border-radius: 20px;
+    height: 620px;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.herosec h4 {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.herosec p {
+    font-size: 14px;
+    color: hsl(218, 100%, 76%);
+    font-weight: 400;
+
+}
+
+.bannerContent .span1 {
+    background: linear-gradient(50deg, hsl(227 48% 31%), hsl(227 48% 31%), hsl(32 65% 48%));
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+.bannerContent .span2 {
+    background: linear-gradient(25deg, hsl(227 48% 31%), hsl(32 65% 48%), hsl(32 65% 48%));
+    color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+
+
+
+@media (width < 1200px) {
+
+    .bannerContent h1 {
+        font-size: 50px;
+    }
+
+    .bannerContent p {
+        font-size: 16px;
+    }
+
+    .textmuted {
+        font-size: 18px !important;
+    }
+
+}
+
+@media (width < 992px) {
+
+    .bannerContent h1 {
+        font-size: 40px;
+    }
+
+    .textmuted {
+        font-size: 20px !important;
+    }
+
+
+    .bannerContent p {
+        font-size: 18px !important;
+    }
+
+    .bannerImg {
+        margin-top: 50px;
+    }
+
+    .herosec p {
+        font-size: 14px !important;
+    }
+
+    .bannerSec {
+        padding: 60px 0px;
+    }
+
+}
+
+
+
+@media (width < 768px) {
+
+
+    .bannerContent h1 {
+        font-size: 35px;
+    }
+
+    .bannerContent p {
+        font-size: 15px !important;
+    }
+
+    .textmuted {
+        font-size: 18px !important;
+    }
+      .herosec p {
+        font-size: 12px !important;
+    }
+
+    .bannerContent button{
+        width: 100% !important;
+        margin: 15px 0px;
+    }
+
+    .bannerImg img{
+        height: 500px;
+    }
+
+}
+
+
+@media (width < 576px) {
+
+    .herosec h4{
+        font-size: 24px;
+    }
+    
+
+
+}
